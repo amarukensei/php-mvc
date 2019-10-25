@@ -1,0 +1,12 @@
+home:
+    path: /
+    defaults: 
+        _controller: 'Controllers\HomeController::index'
+    methods:
+        - GET
+home_param:
+    path: /echo/{message}
+    defaults: 
+        _controller: 'Controllers\HomeController::index'
+    methods:
+        - GET

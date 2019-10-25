@@ -1,0 +1,26 @@
+{
+    "name": "amarukensei/mvc",
+    "description": "Simple MVC boilerplate with composer autoload and Symfony routing component",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Bernardino Todolí",
+            "email": "amarukensai@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Library\\": "lib/",
+            "Controllers\\": "app/controllers/",
+            "Models\\": "app/models/",
+            "Views\\": "app/views/"
+        }
+    },
+    "require": {
+        "symfony/routing": "^4.3",
+        "symfony/http-foundation": "^4.3",
+        "symfony/yaml": "^4.3",
+        "symfony/config": "^4.3",
+        "mongodb/mongodb": "^1.5"
+    }
+}

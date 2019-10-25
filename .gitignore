@@ -1,0 +1,6 @@
+vendor
+app/cache/*.php
+app/cache/*.meta
+composer.lock
+app/config/config.php
+.htaccess
